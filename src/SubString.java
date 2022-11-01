@@ -6,7 +6,7 @@ public class SubString {
     public static void main(String[] args) {
         String s = "XYBYAXBY";
         System.out.println(new SubString().findCombination(s,0));
-        System.out.println("Combination :"+ set.size());
+        System.out.println("Combination : "+ set.size());
     }
     public Set<String> findCombination(String s,int index) {
 
@@ -26,18 +26,18 @@ public class SubString {
         return set;
 
     }
-    public boolean checkSequence(String combi, String s) {
+    public boolean checkSequence(String combination, String s) {
 
-        int indx=-1;
+        int index =-1;
         boolean flag = true;
 
-        for(int i=0;i<combi.length();i++) {
+        for(int i = 0; i< combination.length(); i++) {
 
-            s=s.substring(indx+1);
+            s=s.substring(index +1);
 
-            indx=s.indexOf(combi.charAt(i));
+            index =s.indexOf(combination.charAt(i));
 
-            if(indx==-1) {
+            if(index ==-1) {
                 flag=false;
                 break;
             }
@@ -45,7 +45,7 @@ public class SubString {
         }
 
         if(flag) {
-            set.add(combi);
+            set.add(combination);
             return true;
         }
 
