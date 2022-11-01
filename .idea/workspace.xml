@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa1a637b-246e-42e6-a93b-dc2c89359238" name="Changes" comment="31Oct2022">
+    <list default="true" id="fa1a637b-246e-42e6-a93b-dc2c89359238" name="Changes" comment="01Nov2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubString">
+  <component name="RunManager" selected="Application.ChessBoard">
     <configuration name="ArrayOfProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayOfProduct" />
       <module name="ZSGSOct31" />
@@ -74,8 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubString" />
         <item itemvalue="Application.ChessBoard" />
+        <item itemvalue="Application.SubString" />
         <item itemvalue="Application.ArrayOfProduct" />
         <item itemvalue="Application.ZeroSum" />
         <item itemvalue="Application.LinkedListClass" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667241941490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="01Nov2022">
+      <created>1667279172167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667279172167</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +121,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="31Oct2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="31Oct2022" />
+    <MESSAGE value="01Nov2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="01Nov2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ChessBoard.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
